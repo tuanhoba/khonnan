@@ -3,146 +3,321 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đơn Tố Cáo – V/v: Có dấu hiệu lừa đảo/Lạm dụng tín nhiệm chiếm đoạt tài sản</title>
+    
+    <!-- ===== SEO TỐI ƯU ===== -->
+    <title>Nguyễn Công Bình – Âm mưu lừa đảo "Thầy Giáo Ô tô" Buôn Ma Thuột | Cảnh giác</title>
+    <meta name="description" content="Báo cáo phân tích âm mưu lừa đảo của Nguyễn Công Bình - Thầy Giáo Ô tô tại Buôn Ma Thuột. Sơ đồ tư duy lộ trình lừa đảo, dấu hiệu nhận biết để mọi người cảnh giác.">
+    <meta name="keywords" content="Nguyễn Công Bình lừa đảo, Thầy Giáo Ô tô Buôn Ma Thuột, Thầy lừa đảo Đắk Lắk, thầy giáo Nguyễn Công Bình, âm mưu lừa đảo, lừa đảo mua xe Air Blade, lạm dụng tín nhiệm Cao Đẳng Buôn Ma Thuột, Nguyễn Công Bình Ea Kao, cảnh giác lừa đảo giáo viên, lừa đảo F88 Buôn Ma Thuột, chiếm đoạt 25 triệu Đắk Lắk, không trả tiền mất liên lạc">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="vi">
+    <meta name="geo.region" content="VN-35">
+    <meta name="geo.placename" content="Buôn Ma Thuột, Đắk Lắk">
+    
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { 
-            font-family: "Times New Roman", serif; 
-            line-height: 1.6; 
-            padding: 30px; 
-            background: #f5f5f5;
-            font-size: 16px;
+        body {
+            font-family: "Segoe UI", Roboto, Arial, sans-serif;
+            line-height: 1.7;
+            background: linear-gradient(to bottom, #fefefe, #f4f4f4);
+            padding: 20px;
+            color: #222;
         }
-        .document {
-            max-width: 800px;
+        .container {
+            max-width: 900px;
             margin: 0 auto;
-            background: white;
-            padding: 50px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+            border-radius: 8px;
         }
-        .header { text-align: center; margin-bottom: 30px; }
-        .header h3 { text-transform: uppercase; font-weight: bold; margin-bottom: 5px; }
-        .header p { font-style: italic; margin-bottom: 15px; }
-        .title { text-align: center; text-transform: uppercase; font-weight: bold; margin: 20px 0; font-size: 18px; }
-        .date-place { text-align: right; margin-bottom: 20px; }
-        .recipient { margin-bottom: 25px; font-weight: bold; }
-        h4 { margin: 15px 0 10px 0; text-transform: uppercase; }
-        ul, ol { margin-left: 30px; margin-bottom: 15px; }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #c0392b;
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #c0392b;
+            font-size: 28px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .header p.subtitle {
+            font-size: 18px;
+            color: #555;
+            font-weight: 500;
+        }
+        .alert-box {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 18px 22px;
+            margin: 25px 0;
+            border-radius: 4px;
+        }
+        .alert-box h3 { color: #856404; margin-bottom: 8px; }
+        h2 {
+            color: #2c3e50;
+            font-size: 20px;
+            margin: 35px 0 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #ddd;
+        }
+        h3 {
+            color: #34495e;
+            font-size: 17px;
+            margin: 20px 0 10px;
+        }
+        .info-card {
+            background: #f8f9fa;
+            border-radius: 6px;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 4px solid #3498db;
+        }
+        .info-card h3 { margin-top: 0; color: #2980b9; }
+        .mindmap-container {
+            background: #fef5f5;
+            border: 2px solid #e74c3c;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+        .mindmap-title {
+            text-align: center;
+            color: #c0392b;
+            font-weight: bold;
+            font-size: 19px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px dashed #e74c3c;
+        }
+        .mind-center {
+            text-align: center;
+            background: #c0392b;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 18px;
+            max-width: 400px;
+            margin: 0 auto 30px;
+        }
+        .mind-branch {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .mind-branch-col {
+            flex: 1;
+            min-width: 250px;
+        }
+        .mind-box {
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            position: relative;
+        }
+        .mind-box.step1 { background: #e3f2fd; border-left: 4px solid #1976d2; }
+        .mind-box.step2 { background: #fff3e0; border-left: 4px solid #f57c00; }
+        .mind-box.step3 { background: #fce4ec; border-left: 4px solid #c2185b; }
+        .mind-box.step4 { background: #e8f5e9; border-left: 4px solid #2e7d32; }
+        .mind-box h4 { margin-bottom: 8px; font-size: 15px; }
+        .red-flag {
+            background: #ffebee;
+            border: 1px solid #ef5350;
+            border-radius: 6px;
+            padding: 12px;
+            margin: 8px 0;
+        }
+        .red-flag h4 { color: #c62828; margin-bottom: 5px; }
+        ul { margin-left: 22px; margin-bottom: 15px; }
         li { margin-bottom: 8px; }
-        .highlight { font-weight: bold; }
-        .signature { margin-top: 60px; text-align: right; }
-        .section { margin-bottom: 20px; }
-        .info-row { margin-bottom: 8px; }
-        .amount { font-weight: bold; color: #b71c1c; }
-        .note { font-size: 14px; font-style: italic; color: #555; margin-top: 10px; }
+        .amount { font-weight: bold; color: #c0392b; font-size: 17px; }
+        .timeline {
+            border-left: 3px solid #3498db;
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 18px;
+        }
+        .timeline-item::before {
+            content: "●";
+            color: #3498db;
+            position: absolute;
+            left: -29px;
+            font-size: 20px;
+        }
+        .timeline-date { font-weight: bold; color: #2980b9; }
+        .conclusion {
+            background: #fef9e7;
+            border: 2px solid #f39c12;
+            border-radius: 6px;
+            padding: 22px;
+            margin-top: 30px;
+        }
+        .signature { margin-top: 40px; text-align: right; color: #555; }
+        .seo-hidden { display: none; }
     </style>
 </head>
 <body>
-    <div class="document">
-        <!-- Phần đầu -->
-        <div class="header">
-            <h3>Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam</h3>
-            <p>Độc lập – Tự do – Hạnh phúc</p>
-            <hr style="width: 200px; margin: 5px auto 20px;">
-        </div>
-
-        <div class="title">
-            ĐƠN TRÌNH BÁO VÀ TỐ GIÁC
-        </div>
-
-        <p style="text-align: center; font-weight: bold; margin-bottom: 20px;">
-            V/v: Có dấu hiệu lừa đảo / Lạm dụng tín nhiệm chiếm đoạt tài sản
-        </p>
-
-        <div class="date-place">
-            Buôn Ma Thuột, ngày ….. tháng …… năm 2026
-        </div>
-
-        <div class="recipient">
-            Kính gửi: CÔNG AN PHƯỜNG EAKAO, TP. BUÔN MA THUỘT, TỈNH ĐẮK LẮK
-        </div>
-
-        <!-- Thông tin người tố giác -->
-        <div class="section">
-            <h4>1. Thông tin người tố giác</h4>
-            <p class="note">(Thông tin được bảo mật theo yêu cầu)</p>
-        </div>
-
-        <!-- Thông tin người bị tố giác -->
-        <div class="section">
-            <h4>2. Thông tin người bị tố giác</h4>
-            <ul>
-                <li><span class="highlight">Họ và tên:</span> NGUYỄN CÔNG BÌNH</li>
-                <li><span class="highlight">Sinh ngày:</span> 10/03/1989</li>
-                <li><span class="highlight">Số CMND:</span> 10094134</li>
-                <li><span class="highlight">Địa chỉ:</span> Ngã 3 Cao Thành, Buôn Hđơk, Phường Ea Kao, Thành phố Buôn Ma Thuột, Tỉnh Đắk Lắk</li>
-                <li><span class="highlight">Số điện thoại:</span> 0886044747</li>
-            </ul>
-        </div>
-
-        <!-- Thông tin bên liên quan - Đã ẩn chi tiết -->
-        <div class="section">
-            <h4>3. Thông tin người có quyền lợi và nghĩa vụ liên quan (Chủ xe trên giấy tờ)</h4>
-            <p class="note">(Thông tin cá nhân được bảo mật theo yêu cầu)</p>
-            <p>Người này là người đứng tên đăng ký xe, cũng là người quen biết cùng đơn vị làm việc với các bên liên quan.</p>
-        </div>
-
-        <!-- Nội dung sự việc -->
-        <div class="section">
-            <h4>4. Nội dung sự việc</h4>
-            
-            <p>Vào ngày <strong>01/06/2026</strong>, ông Nguyễn Công Bình liên hệ với người tố giác để bán xe máy Honda Air Blade, biển kiểm soát <strong>47AD-191.62</strong>. Chiếc xe đứng tên người khác trên giấy đăng ký. Do có quan hệ quen biết, người tố giác đã xác minh trực tiếp với chủ xe và được biết xe đang cầm cố tại F88; chủ xe mong muốn bán xe để giải chấp, tránh nợ xấu.</p>
-            <br>
-
-            <p>Hai bên thỏa thuận giá mua bán là <span class="amount">25.000.000 VNĐ</span>. Ông Bình cam kết giao đầy đủ giấy đăng ký xe gốc sau khi nhận đủ tiền để tiến hành sang tên.</p>
-            <br>
-
-            <p><strong>Diễn biến cụ thể:</strong></p>
-            <ul>
-                <li>Ngày <strong>02/06/2026</strong>: Chuyển khoản đặt cọc <span class="amount">10.000.000 VNĐ</span>.</li>
-                <li>Cùng ngày, khoảng 11h15: Chuyển nốt số tiền còn lại <span class="amount">15.000.000 VNĐ</span> theo yêu cầu, tại điểm hẹn có người chứng kiến. Ông Bình nhận đủ tiền nhưng không giao giấy đăng ký xe gốc, hẹn giao vào chiều cùng ngày.</li>
-                <li>Chiều ngày 02/06/2026: Ông Bình chỉ đưa giấy đi đường do F88 cấp, không giao cà vẹt gốc như đã hứa.</li>
-                <li>Từ đó đến cuối tháng 10/2026: Ông Bình liên tục khất hẹn, hứa đến ngày <strong>20/09/2026</strong> sẽ giao giấy tờ nhưng không thực hiện. Từ cuối tháng 10/2026 mất liên lạc, né tránh trả lời tin nhắn, cuộc gọi và không hoàn trả tiền.</li>
-                <li>Ngày 28/10/2026: Ông Bình đề nghị đưa xe cho chủ xe và hứa thanh toán tiền nhưng chủ xe xác nhận không có thỏa thuận này.</li>
-                <li>Yêu cầu lập biên bản mua bán, xác nhận nhận tiền bị né tránh, không thực hiện.</li>
-            </ul>
-            <br>
-
-            <p>Người tố giác nhận thấy ông Nguyễn Công Bình có hành vi <strong>gian dối, che giấu tình trạng tài sản đã cầm cố</strong>, nhận đủ tiền nhưng không giao giấy tờ hợp pháp, không trả tiền, mất liên lạc – có dấu hiệu tội phạm <strong>Lạm dụng tín nhiệm chiếm đoạt tài sản / Lừa đảo chiếm đoạt tài sản</strong> theo quy định pháp luật.</p>
-            <p>Ông Bình còn được biết đã mượn tiền nhiều người khác tại cùng đơn vị làm việc và không trả; lợi dụng quan hệ, sự tin tưởng để thực hiện hành vi trên.</p>
-        </div>
-
-        <!-- Yêu cầu giải quyết -->
-        <div class="section">
-            <h4>5. Yêu cầu giải quyết</h4>
-            <ol>
-                <li>Mời ông Nguyễn Công Bình làm việc, làm rõ hành vi gian dối, che giấu tình trạng xe đã cầm cố tại F88 nhằm chiếm đoạt số tiền <span class="amount">25.000.000 VNĐ</span>.</li>
-                <li>Yêu cầu: Hoàn trả giấy đăng ký xe hợp pháp để làm thủ tục sang tên <strong>hoặc</strong> hoàn trả đầy đủ số tiền <span class="amount">25.000.000 VNĐ</span> cùng bồi thường thiệt hại phát sinh.</li>
-                <li>Xử lý nghiêm hành vi vi phạm pháp luật nếu đủ dấu hiệu tội phạm hình sự.</li>
-                <li>Xác minh, làm rõ người đồng loã, tiếp tay (nếu có) trong vụ việc.</li>
-            </ol>
-        </div>
-
-        <!-- Tài liệu đính kèm -->
-        <div class="section">
-            <h4>6. Tài liệu gửi kèm</h4>
-            <ul>
-                <li>Bản sao chứng từ chuyển khoản ngân hàng tổng cộng 25.000.000 VNĐ</li>
-                <li>Bản sao thông tin giấy tờ xe liên quan</li>
-                <li>Bản sao giấy tờ F88 do ông Bình cung cấp</li>
-                <li>Bản sao chụp trao đổi, tin nhắn, hẹn hò giữa các bên</li>
-                <li>Các tài liệu, chứng cứ khác liên quan</li>
-            </ul>
-        </div>
-
-        <!-- Chữ ký -->
-        <div class="signature">
-            <p>Người tố giác</p>
-            <p>(Đã bảo mật thông tin cá nhân)</p>
-            <br><br>
-            <p>Xin chịu trách nhiệm trước pháp luật về nội dung trình bày</p>
-        </div>
+    <div class="seo-hidden">
+        Nguyễn Công Bình lừa đảo Buôn Ma Thuột, Thầy Giáo Ô tô lừa đảo, thầy giáo Nguyễn Công Bình, âm mưu chiếm đoạt tài sản, lừa đảo tín nhiệm, Cao Đẳng Buôn Ma Thuột, mua bán xe Air Blade không cà vẹt, cầm cố F88 giấu diếm, mất liên lạc không trả tiền, Phường Ea Kao lừa đảo, cảnh giác lừa đảo, người cùng trường bị lừa
     </div>
-</body>
-</html>
 
+    <div class="container">
+        <!-- PHẦN ĐẦU -->
+        <div class="header">
+            <h1>BÁO CÁO & CẢNH GIÁC</h1>
+            <p class="subtitle">Phân tích âm mưu lừa đảo của đối tượng: <strong>Nguyễn Công Bình</strong><br>
+            (Được biết với tên gọi: "Thầy Giáo Ô tô" – tại Buôn Ma Thuột, Đắk Lắk)</p>
+        </div>
+
+        <div class="alert-box">
+            <h3>⚠️ LỜI CẢNH BÁO</h3>
+            <p>Đối tượng này đang lợi dụng danh hiệu, sự tin tưởng của đồng nghiệp và người quen để thực hiện hành vi chiếm đoạt tài sản. Nhiều người tại cùng đơn vị đã bị mượn tiền và không được trả. Mọi người cần <strong>cảnh giác cao độ</strong> khi giao dịch, cho mượn tiền hoặc liên quan đến tài sản với đối tượng này.</p>
+        </div>
+
+        <!-- I. THÔNG TIN ĐỐI TƯỢNG -->
+        <h2>I. THÔNG TIN ĐỐI TƯỢNG BỊ TỐ CÁO</h2>
+        <div class="info-card">
+            <h3>Nguyễn Công Bình</h3>
+            <ul>
+                <li><strong>Ngày sinh:</strong> 10/03/1989</li>
+                <li><strong>CMND số:</strong> 10094134</li>
+                <li><strong>Nơi ở:</strong> Ngã 3 Cao Thành, Buôn Hđơk, Phường Ea Kao, TP. Buôn Ma Thuột, Đắk Lắk</li>
+                <li><strong>Điện thoại:</strong> 0886044747</li>
+                <li><strong>Đặc điểm nhận dạng:</strong> Từng giảng dạy tại trường Cao Đẳng Buôn Ma Thuột, thường được gọi thân mật "Thầy Giáo Ô tô"; từng học tại Trường Sĩ Quan Quân Sự, từng làm trong Quân đội – đã lợi dụng những điều này để tạo sự tin tưởng</li>
+            </ul>
+        </div>
+
+        <!-- II. SƠ ĐỒ TƯ DUY - ÂM MƯU LỪA ĐẢO -->
+        <h2>II. SƠ ĐỒ TƯ DUY – LỘ TRÌNH ÂM MƯU LỪA ĐẢO</h2>
+        <div class="mindmap-container">
+            <div class="mindmap-title">
+                🔴 CƠ CHẾ HOẠT ĐỘNG LỪA ĐẢO CỦA NGUYỄN CÔNG BÌNH
+            </div>
+
+            <div class="mind-center">
+                NGUYỄN CÔNG BÌNH<br>
+                <small>"Thầy Giáo Ô tô"</small>
+            </div>
+
+            <div class="mind-branch">
+                <div class="mind-branch-col">
+                    <div class="mind-box step1">
+                        <h4>BƯỚC 1 — TẠO LÒNG TIN</h4>
+                        <ul>
+                            <li>Dùng danh hiệu "Thầy Giáo", "cùng trường", "cùng nhóm chơi thân"</li>
+                            <li>Nhắc đến Phó Hiệu Trưởng, các đồng nghiệp để tăng độ tin cậy</li>
+                            <li>Giấu kín tình trạng xe đang cầm cố tại F88</li>
+                        </ul>
+                    </div>
+                    <div class="mind-box step2">
+                        <h4>BƯỚC 2 — THU HÚT GIAO DỊCH</h4>
+                        <ul>
+                            <li>Đề nghị bán xe Honda Air Blade, BS: 47AD-191.62</li>
+                            <li>Để người mua tự liên hệ chủ xe để "xác minh" – tạo cảm giác minh bạch</li>
+                            <li>Cam kết: "Nhận đủ tiền → giao cà vẹt gốc ngay"</li>
+                            <li>Giá thỏa thuận: <span class="amount">25.000.000 VNĐ</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mind-branch-col">
+                    <div class="mind-box step3">
+                        <h4>BƯỚC 3 — NHẬN TIỀN & TRỐN TRÁNH</h4>
+                        <ul>
+                            <li>02/06/2026: Nhận cọc 10tr + nhận nốt 15tr = đủ 25tr</li>
+                            <li>Không giao cà vẹt → đưa giấy đi đường tạm của F88</li>
+                            <li>Khất hẹn liên tục: từ ngày → tuần → tháng → hẹn 20/09/2026 rồi không thực hiện</li>
+                            <li>Cuối tháng 10/2026: mất liên lạc, né tránh cuộc gọi, tin nhắn</li>
+                        </ul>
+                    </div>
+                    <div class="mind-box step4">
+                        <h4>BƯỚC 4 — CHIẾN LƯỢC CHE GIẤU</h4>
+                        <ul>
+                            <li>Đề nghị "đưa xe cho chủ xe, tôi trả tiền" — nhưng chủ xe không biết, không đồng ý</li>
+                            <li>Khi yêu cầu viết giấy xác nhận nhận tiền → im lặng, không trả lời</li>
+                            <li>Đồng thời mượn tiền nhiều người khác tại trường cũng không trả</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 25px; color: #c0392b;">🚩 DẤU HIỆU BÁO ĐỘNG CẦN CẢNH GIÁC</h3>
+            <div class="red-flag">
+                <h4>1. Tài sản cầm cố không nói rõ</h4>
+                <p>Xe vẫn đang thế chấp tại F88, không sở hữu đầy đủ nhưng vẫn đem bán</p>
+            </div>
+            <div class="red-flag">
+                <h4>2. Nhận tiền nhưng không giao giấy tờ hợp pháp</h4>
+                <p>Chỉ đưa giấy tạm, hẹn liên tục không giữ lời → dấu hiệu lừa đảo điển hình</p>
+            </div>
+            <div class="red-flag">
+                <h4>3. Mất liên lạc sau khi nhận tiền</h4>
+                <p>Từ người thân thiết → né tránh, không trả lời tin nhắn, cuộc gọi</p>
+            </div>
+            <div class="red-flag">
+                <h4>4. Lợi dụng vị trí, quan hệ xã hội</h4>
+                <p>Danh hiệu "Thầy Giáo", "cùng trường", "Quân đội" để hạ thấp sự đề phòng của người khác</p>
+            </div>
+        </div>
+
+        <!-- III. DIỄN BIẾN SỰ VIỆC -->
+        <h2>III. DIỄN BIẾN SỰ VIỆC THEO THỜI GIAN</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <span class="timeline-date">01/06/2026</span>
+                <p>Nguyễn Công Bình liên hệ đề nghị bán xe Air Blade, tạo sự tin tưởng qua quan hệ cùng trường.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">02/06/2026 — Buổi sáng</span>
+                <p>Người mua chuyển cọc 10tr, sau đó chuyển nốt 15tr theo yêu cầu. Tổng cộng <span class="amount">25.000.000 VNĐ</span>. Có người chứng kiến tại giao dịch.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">02/06/2026 — Chiều</span>
+                <p>Không giao giấy đăng ký xe gốc, chỉ đưa giấy đi đường của F88. Bắt đầu khất hẹn.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">06/2026 → 09/2026</span>
+                <p>Liên tục hẹn lại, kéo dài từ 1 tháng sang 3 tháng. Hẹn ngày 20/09/2026 sẽ giao giấy tờ nhưng không thực hiện.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">28/10/2026</span>
+                <p>Đề nghị giao xe cho chủ xe rồi "tôi thanh toán" — nhưng chủ xe xác nhận không có thỏa thuận này. Yêu cầu lập giấy tờ chính thức thì im lặng.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">Hiện tại</span>
+                <p>Mất liên lạc hoàn toàn, không trả tiền, không giao giấy tờ. Nhiều người khác tại trường cũng bị mượn tiền không trả.</p>
+            </div>
+        </div>
+
+        <!-- IV. KẾT LUẬN & KIẾN NGHỊ -->
+        <h2>IV. KẾT LUẬN & LỜI KIẾN NGHỊ</h2>
+        <div class="conclusion">
+            <h3>📌 Kết luận</h3>
+            <p>Hành vi của Nguyễn Công Bình có đủ dấu hiệu của tội <strong>Lừa đảo chiếm đoạt tài sản</strong> và/hoặc <strong>Lạm dụng tín nhiệm chiếm đoạt tài sản</strong> theo Bộ luật Hình sự Việt Nam.</p>
+            <ul>
+                <li><strong>Giấu diếm sự thật:</strong> Không thông báo rõ xe đang thế chấp tại F88</li>
+                <li><strong>Thu bất hợp pháp:</strong> Nhận đủ 25 triệu nhưng không thực hiện nghĩa vụ giao tài sản hợp pháp</li>
+                <li><strong>Biết không có khả năng thực hiện:</strong> Từ đầu không có ý định trả tiền hay giao giấy tờ, chỉ dùng lời hứa để trì hoãn</li>
+                <li><strong>Lợi dụng tín nhiệm:</strong> Dùng danh hiệu, quan hệ đồng nghiệp để tạo sự tin tưởng</li>
+            </ul>
+
+            <h3 style="margin-top: 20px;">🛡️ Lời cảnh giác cộng đồng</h3>
+            <ul>
+                <li>Không giao dịch tài sản, cho mượn tiền với Nguyễn Công Bình nếu không có chứng từ rõ ràng, có người bảo lãnh</li>
+                <li>Kiểm tra giấy tờ gốc tại giao dịch, không chấp nhận giấy tờ tạm hoặc lời hứa sau này</li>
+                <li>Nếu đã bị ảnh hưởng, vui lòng liên hệ Công an Phường Ea Kao, TP. Buôn Ma Thuột để cùng tố cáo, tạo chuỗi chứng cứ</li>
+                <li>Chia sẻ thông tin này để người thân, bạn bè tại địa phương biết và đề phòng</li>
+            </ul>
+        </div>
+
+        <div class="signature">
+            <p>Người báo cáo – Bảo mật thông tin</p>
+            <p>TP. Buôn Ma Thuột, Tỉnh Đắk Lắk</p>
+            <p>Ngày 07 tháng 11 năm 2026</p>
+            <p style="margin-top: 10px; font-style: italic; font-size: 14px;">Cam kết nội dung trình bày đúng sự thật
